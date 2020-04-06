@@ -31,13 +31,10 @@ public class POS_Frame extends JFrame {
         getContentPane().add(mainPanel);
         mainPanel.setLayout(null);
 
-
         resultPanel.setBounds(684, 0, 301, 660);
         resultPanel.setBackground(new Color(160, 255, 206));
         getContentPane().add(resultPanel);
         resultPanel.setLayout(null);
-
-
     }
 
     public final void initLabel(){
@@ -54,7 +51,7 @@ public class POS_Frame extends JFrame {
 
     public final void initButton() {
         //main
-        JButton btn_BLT = new JButton("BLT");
+        JButton btn_BLT = new JButton("BLTSandwich");
         btn_BLT.setBounds(50, 37, 150, 70);
         mainPanel.add(btn_BLT);
 

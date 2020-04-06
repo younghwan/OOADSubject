@@ -1,7 +1,6 @@
 package database;
 
 import java.sql.*;
-
 public class DBConnection {
 
     private Connection con;
@@ -32,6 +31,21 @@ public class DBConnection {
             e.printStackTrace();
         }
         return false;
+    }
+
+    public int getPrice(String name){
+        try{
+            String SQL = "SELECT Price FROM Base WHERE name = '" + name +"'";
+            rs = st.executeQuery(SQL);
+            if(rs.next())
+            {
+                System.out.println(rs.getObject(0).toString());
+            }
+        }catch (Exception e){
+            System.out.println("DB오류 : "+e.getMessage());
+            e.printStackTrace();
+        }
+        return -1;
     }
 
 }

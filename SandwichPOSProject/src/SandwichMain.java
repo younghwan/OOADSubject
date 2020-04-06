@@ -1,34 +1,29 @@
-import condiment.Bacon;
-import condiment.Cheese;
-import condiment.Pepperoni;
-import sandwich.HamSandwich;
-import sandwich.ItalianBMT;
-import sandwich.MeatballSandwich;
-import sandwich.Sandwich;
+import database.Menu;
+import model.Order;
+import controller.OrderController;
+import model.Product;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SandwichMain {
  
 	public static void main(String args[]) {
-		Sandwich sandwich = new ItalianBMT();
-		System.out.println(sandwich.getDescription()
-				+ " ₩" + sandwich.cost());
- 
-		Sandwich sandwich2 = new HamSandwich();
-		sandwich2 = new Bacon(sandwich2);
-		sandwich2 = new Bacon(sandwich2);
-		sandwich2 = new Cheese(sandwich2);
+		Menu menu = new Menu();
+		List<Product> productList = new ArrayList<>();
+		Product product;
+		Order order = new Order();
+		List<String> condiments = new ArrayList<>();
+		OrderController orderController = new OrderController(order);
 
-		System.out.println(sandwich2.getDescription()
-				+ " ₩" + sandwich2.cost());
- 
-		Sandwich sandwich3 = new MeatballSandwich();
-		sandwich3 = new Pepperoni(sandwich3);
-		sandwich3 = new Bacon(sandwich3);
-		sandwich3 = new Cheese(sandwich3);
-		System.out.println(sandwich3.getDescription()
-				+ " ₩" + sandwich3.cost());
+		orderController.orderSandwich("BLTSandwich");
 
-		//객체 생성해서 계산하는 controller 만들기
+		condiments.add("Cheese");
+		condiments.add("Bacon");
+
+		orderController.orderCondiments(condiments);
+
+		System.out.println(orderController.getProductPrice());
 
 	}
 }

@@ -1,0 +1,10 @@
+{
+  "BLT" : 4000,
+  "HamSandwich" : 3500,
+  "italianBMT" : 3600,
+  "MeatballSandwich" : 3700,
+  "Bacon" : 200,
+  "Cheese" : 300,
+  "EggMayo" : 400,
+  "Pepperoni" : 200
+}

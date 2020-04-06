@@ -1,17 +1,8 @@
 package condiment;
 
-import sandwich.Sandwich;
-
 public class Cheese extends Condiment {
-    public Cheese(Sandwich sandwich) {
-        this.sandwich = sandwich;
+    @Override
+    public int cost() {
+        return menu.cheese_Price;
     }
-
-    public String getDescription() {
-        return sandwich.getDescription() + " + Cheese";
-    }
-
-    public double cost() { return .10 + sandwich.cost(); }
 }
-
-

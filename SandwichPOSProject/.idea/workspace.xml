@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bfe981d-a3aa-4ce7-b33f-c3e908e83f8f" name="Default Changelist" comment="" />
+    <list default="true" id="7bfe981d-a3aa-4ce7-b33f-c3e908e83f8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/younghawnshin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48_bin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/input.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sandwich/BLTSandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_48_bin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandwichPOSProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SandwichPOSProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SandwichPOSProject/StarbuzzCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SandwichPOSProject/condiment/Bacon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandwichPOSProject/condiment/Bacon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SandwichPOSProject/condiment/Cheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandwichPOSProject/condiment/Cheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SandwichPOSProject/database/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandwichPOSProject/database/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SandwichPOSProject/database/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SandwichPOSProject/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandwichPOSProject/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SandwichPOSProject/ui/POS_Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SandwichPOSProject/ui/POS_Frame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SandwichMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SandwichMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/condiment/Bacon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/condiment/Bacon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/condiment/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/condiment/Cheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/condiment/Condiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/condiment/Condiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/condiment/EggMayo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/condiment/EggMayo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/condiment/Pepperoni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/condiment/Pepperoni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandwich/BLT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandwich/HamSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandwich/HamSandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandwich/ItalianBMT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandwich/ItalianBMT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandwich/MeatballSandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandwich/MeatballSandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sandwich/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sandwich/Sandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/POS_Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/POS_Frame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +49,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1a4jiIjanpNpWM6LtsImaQIzMtH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,13 +61,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.side.proportion" value="0.24482758" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/database" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -59,7 +102,7 @@
       <module name="SandwichPOSProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ui.*" />
+          <option name="PATTERN" value="controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,9 +120,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SandwichMain" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainUI" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -101,6 +144,10 @@
       <screen x="0" y="23" width="1792" height="1023" />
     </state>
     <state x="496" y="200" key="#Project_Structure/0.23.1792.1023@0.23.1792.1023" timestamp="1586001905192" />
+    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1586180942020">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586180942020" />
     <state x="662" y="426" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586084678300">
       <screen x="0" y="23" width="1792" height="1023" />
     </state>
@@ -109,47 +156,49 @@
       <screen x="0" y="23" width="1792" height="1023" />
     </state>
     <state x="608" y="81" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-2560.149.2560.1417/0.23.1792.1023@0.23.1792.1023" timestamp="1586083095079" />
-    <state width="1750" height="288" key="GridCell.Tab.0.bottom" timestamp="1586154299086">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state width="1750" height="195" key="GridCell.Tab.0.bottom" timestamp="1586186299672">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="348" key="GridCell.Tab.0.bottom/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586007128823" />
+    <state width="1750" height="195" key="GridCell.Tab.0.bottom/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586186299672" />
     <state width="1750" height="288" key="GridCell.Tab.0.bottom/-2560.149.2560.1417/0.23.1792.1023@0.23.1792.1023" timestamp="1586096149916" />
     <state width="1750" height="278" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586002507763" />
     <state width="1750" height="288" key="GridCell.Tab.0.bottom/0.23.1792.1023@0.23.1792.1023" timestamp="1586154299086" />
-    <state width="1750" height="288" key="GridCell.Tab.0.center" timestamp="1586154299085">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state width="1750" height="195" key="GridCell.Tab.0.center" timestamp="1586186299671">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="348" key="GridCell.Tab.0.center/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586007128822" />
+    <state width="1750" height="195" key="GridCell.Tab.0.center/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586186299671" />
     <state width="1750" height="288" key="GridCell.Tab.0.center/-2560.149.2560.1417/0.23.1792.1023@0.23.1792.1023" timestamp="1586096149915" />
     <state width="1750" height="278" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586002507761" />
     <state width="1750" height="288" key="GridCell.Tab.0.center/0.23.1792.1023@0.23.1792.1023" timestamp="1586154299085" />
-    <state width="1750" height="288" key="GridCell.Tab.0.left" timestamp="1586154299084">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state width="1750" height="195" key="GridCell.Tab.0.left" timestamp="1586186299670">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="348" key="GridCell.Tab.0.left/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586007128821" />
+    <state width="1750" height="195" key="GridCell.Tab.0.left/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586186299670" />
     <state width="1750" height="288" key="GridCell.Tab.0.left/-2560.149.2560.1417/0.23.1792.1023@0.23.1792.1023" timestamp="1586096149915" />
     <state width="1750" height="278" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586002507761" />
     <state width="1750" height="288" key="GridCell.Tab.0.left/0.23.1792.1023@0.23.1792.1023" timestamp="1586154299084" />
-    <state width="1750" height="288" key="GridCell.Tab.0.right" timestamp="1586154299085">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state width="1750" height="195" key="GridCell.Tab.0.right" timestamp="1586186299671">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="348" key="GridCell.Tab.0.right/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586007128823" />
+    <state width="1750" height="195" key="GridCell.Tab.0.right/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586186299671" />
     <state width="1750" height="288" key="GridCell.Tab.0.right/-2560.149.2560.1417/0.23.1792.1023@0.23.1792.1023" timestamp="1586096149916" />
     <state width="1750" height="278" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586002507762" />
     <state width="1750" height="288" key="GridCell.Tab.0.right/0.23.1792.1023@0.23.1792.1023" timestamp="1586154299085" />
-    <state x="384" y="152" key="SettingsEditor" timestamp="1586085104779">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state x="384" y="141" key="SettingsEditor" timestamp="1586167237825">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="384" y="141" key="SettingsEditor/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586005285054" />
-    <state x="384" y="141" key="SettingsEditor/-2560.149.2560.1417/0.0.1792.1120@0.0.1792.1120" timestamp="1586005115577" />
+    <state x="384" y="141" key="SettingsEditor/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586167237825" />
+    <state x="384" y="141" key="SettingsEditor/-2560.149.2560.1417/0.0.1792.1120@0.0.1792.1120" timestamp="1586165336846" />
     <state x="384" y="152" key="SettingsEditor/-2560.149.2560.1417/0.23.1792.1023@0.23.1792.1023" timestamp="1586085104779" />
+    <state x="384" y="141" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1586160195409" />
     <state x="477" y="259" width="837" height="550" key="find.popup" timestamp="1586090013404">
       <screen x="0" y="23" width="1792" height="1023" />
     </state>
     <state x="477" y="259" width="837" height="550" key="find.popup/-2560.149.2560.1417/0.23.1792.1023@0.23.1792.1023" timestamp="1586090013404" />
-    <state x="561" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1586089994465">
-      <screen x="0" y="23" width="1792" height="1023" />
+    <state x="561" y="247" width="670" height="741" key="search.everywhere.popup" timestamp="1586186213602">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="561" y="247" width="670" height="741" key="search.everywhere.popup/-2560.126.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1586186213602" />
     <state x="561" y="249" width="670" height="676" key="search.everywhere.popup/-2560.149.2560.1417/0.23.1792.1023@0.23.1792.1023" timestamp="1586089994465" />
   </component>
 </project>

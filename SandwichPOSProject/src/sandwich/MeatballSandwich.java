@@ -1,14 +1,9 @@
 package sandwich;
 
-import sandwich.Sandwich;
-
 public class MeatballSandwich extends Sandwich {
-	public MeatballSandwich() {
-		description = "MeatballSandwich";
-	}
- 
-	public double cost() {
-		return 4500;
+	@Override
+	public int cost() {
+		return menu.MEATBALL_SANDWICH_PRICE;
 	}
 }
 

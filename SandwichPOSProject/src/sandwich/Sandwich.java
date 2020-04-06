@@ -1,11 +1,8 @@
 package sandwich;
 
+import database.Menu;
+
 public abstract class Sandwich {
-	String description = "Unknown";
-  
-	public String getDescription() {
-		return description;
-	}
- 
-	public abstract double cost();
+	Menu menu = new Menu();
+	public abstract int cost();
 }

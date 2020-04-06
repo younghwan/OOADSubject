@@ -1,8 +1,8 @@
 package condiment;
 
-import sandwich.Sandwich;
+import database.Menu;
 
-public abstract class Condiment extends Sandwich {
-	Sandwich sandwich;
-	public abstract String getDescription();
+public abstract class Condiment{
+	Menu menu = new Menu();
+	public abstract int cost();
 }
